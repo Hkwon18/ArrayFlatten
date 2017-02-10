@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Command\CheckTreeCommand.cs" />
     <Compile Include="Model\TreeNode.cs" />
     <Compile Include="ViewModel\TreeViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">

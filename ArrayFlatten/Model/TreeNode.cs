@@ -14,9 +14,9 @@ namespace ArrayFlatten.Model
         {
         }
 
-        public TreeNode(int[] item)
+        public TreeNode(int[] nodeInts)
         {
-            Item = item;
+            NodeInts = nodeInts;
         }
 
         public void AddChild(TreeNode<T> child)
@@ -32,56 +32,26 @@ namespace ArrayFlatten.Model
 
         public List<TreeNode<T>> Children = new List<TreeNode<T>>();
 
-        public int[] Item { get; set; }
+        public int[] NodeInts { get; set; }
 
-        private string _arrayString = string.Empty;
-        public string ArrayString
+        public string ArrayToString()
         {
-            get
-            {
-                return PrintTree();
-            }
-            set
-            {
-                _arrayString = value;
-            }
+            return string.Join(", ", FlattenTreeToArray());
         }
 
-        public int[] FlattenToArray()
+        public int[] FlattenTreeToArray()
         {
             return Listify().ToArray();
         }
 
         public List<int> Listify()
         {
-            List<int> flatList = new List<int>(Item);
+            List<int> flatList = new List<int>(NodeInts);
             foreach (TreeNode<T> child in Children)
             {
                 flatList.AddRange(child.Listify());
             }
             return flatList;
-        }
-
-        public string PrintTree()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.Append(PrintNode());
-            foreach (TreeNode<T> child in Children)
-            {
-                sb.Append(child.PrintTree());
-            }
-            return sb.ToString();
-        }
-
-        public string PrintNode()
-        {
-            StringBuilder sb = new StringBuilder();
-            foreach (var i in (IEnumerable) Item)
-            {
-                sb.Append(i);
-                sb.Append(", ");
-            }
-            return sb.ToString();
         }
 
         #region INotifyPropertyChanged 
