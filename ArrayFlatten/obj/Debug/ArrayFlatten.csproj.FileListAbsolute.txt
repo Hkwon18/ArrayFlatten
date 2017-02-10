@@ -1,14 +1,14 @@
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\bin\Debug\ArrayFlatten.exe.config
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\bin\Debug\ArrayFlatten.exe
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\bin\Debug\ArrayFlatten.pdb
-c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten.csprojResolveAssemblyReference.cache
+c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\Views\MainWindow.g.cs
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\App.g.cs
+c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\GeneratedInternalTypeHelper.g.cs
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten_MarkupCompile.cache
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten_MarkupCompile.lref
+c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\Views\MainWindow.baml
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten.g.resources
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten.Properties.Resources.resources
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten.csproj.GenerateResource.Cache
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten.exe
 c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\ArrayFlatten.pdb
-c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\View\MainWindow.g.cs
-c:\users\hyukjin\documents\visual studio 2015\Projects\ArrayFlatten\ArrayFlatten\obj\Debug\View\MainWindow.baml

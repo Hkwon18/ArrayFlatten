@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using ArrayFlatten.ViewModel;
+﻿using System.Windows.Input;
+using ArrayFlatten.ViewModels;
 
-namespace ArrayFlatten.Command
+namespace ArrayFlatten.Commands
 {
 
 
@@ -36,12 +31,12 @@ namespace ArrayFlatten.Command
 
         public bool CanExecute(object parameter)
         {
-            return _ViewModel.CanFlattenInput;
+            return _ViewModel.IsFlattenButtonEnabled;
         }
 
         public void Execute(object parameter)
         {
-            _ViewModel.WrapArrayify(_ViewModel.InputArrayString);
+            _ViewModel.DoFlattenButton(_ViewModel.InputArrayString);
         }
     }
 }

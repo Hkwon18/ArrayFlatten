@@ -1,7 +1,7 @@
-﻿using ArrayFlatten.ViewModel;
-using System.Windows;
+﻿using System.Windows;
+using ArrayFlatten.ViewModels;
 
-namespace ArrayFlatten
+namespace ArrayFlatten.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
